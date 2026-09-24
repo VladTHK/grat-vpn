@@ -9,6 +9,9 @@
   "peerDependencies": {
     "typescript": "^5"
   },
+  "scripts": {
+    "start": "bun index.ts"
+  },
   "dependencies": {
     "gramio": "^0.15.1"
   }
