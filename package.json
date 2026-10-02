@@ -13,6 +13,10 @@
     "start": "bun index.ts"
   },
   "dependencies": {
-    "gramio": "^0.15.1"
+    "@tailwindcss/vite": "^4.3.3",
+    "gramio": "^0.15.1",
+    "lucide": "^1.50.0",
+    "react-router": "^8.4.0",
+    "tailwindcss": "^4.3.3"
   }
 }
