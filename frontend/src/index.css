@@ -21,8 +21,6 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   line-height: 1.125;
 }
@@ -31,4 +29,11 @@ body {
   background-color: var(--bg);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: var(--text);
+}
+
+.main-button {
+  @apply font-bold bg-sky-900 rounded-lg px-4 py-2
+}
+.secondary-button {
+  @apply font-bold bg-blue-950 border border-b-2 border-blue-900 rounded-lg px-4 py-2
 }
