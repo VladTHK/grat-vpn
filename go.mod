@@ -1,0 +1,3 @@
+module grat-vpn
+
+go 1.27.1
