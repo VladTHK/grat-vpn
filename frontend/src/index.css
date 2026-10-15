@@ -2,7 +2,6 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #141414;
   --text: #fff;
   --text-muted: #ffffff70;
 
@@ -26,14 +25,15 @@
 }
 
 body {
-  background-color: var(--bg);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: monospace;
   color: var(--text);
+  @apply bg-gray-950
 }
 
-.main-button {
-  @apply font-bold bg-sky-900 rounded-lg px-4 py-2
+.button {
+  @apply px-3 py-2.5 rounded-md border transition-transform duration-200 ease-in-out cursor-pointer active:scale-95;
 }
-.secondary-button {
-  @apply font-bold bg-blue-950 border border-b-2 border-blue-900 rounded-lg px-4 py-2
+
+.button-accent {
+  @apply bg-sky-700/80 border-sky-500 text-sky-400
 }

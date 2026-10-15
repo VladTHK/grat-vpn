@@ -17,5 +17,14 @@ export const boughtServer: IBoughtServer[] = [
     inputSpeed: "191.1",
     outputSpeed: "30",
     packetLose: "0"
-  }
+  },
+  {
+    id: "1",
+    title: "Germany",
+    status: "offline",
+    ip: "123.222.01.228",
+    inputSpeed: "191.1",
+    outputSpeed: "30",
+    packetLose: "0"
+  },
 ]
